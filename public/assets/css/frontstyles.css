@@ -1,0 +1,243 @@
+.header {
+    background-color: #2c53a1;
+    padding: 10px;
+    color: white;
+}
+
+.logo-wrapper {
+    max-width: 155px;
+    height: 50px;
+}
+.nav-link {
+    color: black;
+    margin: auto;
+}
+.nav-link:hover {
+    background-color: #2c53a1;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-item .active {
+    background-color: #0840b1;
+    color: white;
+    border-radius: 10px;
+}
+
+.logo-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.left-items {
+    float: left;
+}
+
+.icons {
+    font-size: 20px;
+}
+
+.custom-column {
+    width: 40%;
+    margin-right: 5%; /* Add spacing between columns */
+}
+
+.custom-column:last-child {
+    margin-right: 0; /* Remove spacing for the last column */
+}
+
+.hover-effect {
+    transition: transform 0.3s;
+}
+
+.hover-effect:hover {
+    transform: scale(1.2);
+}
+
+.image-wrapper {
+    width: 500px;
+    height: 530px;
+    overflow: hidden;
+    position: relative;
+}
+.image-wrapper img {
+    width: 100%; /* Set the image's width to 100% of the wrapper's width */
+    height: 100%; /* Set the image's height to 100% of the wrapper's height */
+    object-fit: cover; /* Contain the image within the wrapper while preserving aspect ratio */
+    /* display: block; Ensure the image is treated as a block-level element */
+    transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+.right-items {
+    float: right;
+}
+
+.item {
+    margin: 0 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 78vh;
+}
+
+.swiper-slide > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    color: #2c53a1;
+}
+
+.right-image {
+    width: 300px;
+    height: 10px;
+}
+
+.right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blockcode {
+    background: #2c53a1;
+    color: white;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.carousel {
+    margin-top: 85px;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: #2c53a1;
+}
+
+.card-title a:hover {
+    color: #2c53a1;
+    text-decoration: underline;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+    .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+    }
+    .carousel-inner {
+        display: flex;
+    }
+}
+.card .img-wrapper {
+    max-width: 100%;
+    height: 23em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    max-height: 100%;
+}
+@media (max-width: 767px) {
+    .card .img-wrapper {
+        height: 17em;
+    }
+}
+
+.about p {
+    color: #777;
+    line-height: 26px;
+}
+
+.about li {
+    list-style: disc;
+}
+
+.about .image-wrapper {
+    max-width: 80px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+.about .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dbox .icon i {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.contact-links li a {
+    color: white;
+    padding: 10px;
+}
+
+.messages .card {
+    width: 200px;
+    height: 35 0px;
+}
+.messages .car img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.zoom-effect {
+    transition: transform ease-in-out 0.5s;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.05);
+    box-shadow: black;
+}
+
+.gallery .box {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.gallery .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform ease-in-out 0.5s;
+}
+.gallery .box img:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,18 @@
+@extends('layouts.home')
+@section('content')
+    <main id="main" class="main">
+        <div class="pagetitle">
+            <h1>New page Name</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item text-capitalize"><a href="{{ route('home') }}">Home</a></li>
+
+                    <li class="breadcrumb-item active text-capitalize">something</li>
+                </ol>
+            </nav>
+        </div>
+
+        <section class="section">
+
+        </section>
+    @endsection
