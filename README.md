@@ -21,7 +21,7 @@ Git clone the project.
 
 9.Go to link localhost:8000
 
-To login the default admin-user email and password is:
+# To login the default admin-user email and password is:
 
 email - haylu@gmail.com
 
